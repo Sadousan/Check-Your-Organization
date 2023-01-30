@@ -1,0 +1,286 @@
+/*ícones do WhatsApp, Gmail e Perfil(Dev)*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+.navbar p{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Roboto', sans-serif;
+    transform:translate(45px);
+    text-indent:25px
+}
+
+.navbar{
+    display:inline;
+    justify-content:center;
+    align-items:center;
+    height:30vh;
+    font-size:25px;
+    background:#010107;
+}
+
+.box{
+    width:65px;
+    height:68px;
+    align-items:center;
+    display:flex;
+    padding:5px;
+    margin:0.6rem;
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    transition:all 1s ease;
+}
+
+.box .icon{
+    position:absolute;
+    width:50px;
+    height:50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    border-radius:50%;
+    margin-right:10px;
+    transition:all 1s ease;
+}
+
+.zap{
+    background-color:#66ff4f;
+}
+
+.mail{
+    background-color:#900904;
+}
+
+.perfil{
+    background-color:#1f104f;
+}
+
+.navbar a{
+    color:#fff;
+}
+
+.box:hover{
+    width:200px;
+    background:#66ff4f;
+    border-radius:35px;
+    color:#fff;
+    box-shadow:0 0 50px #62d44d;
+}
+
+.box:nth-child(2):hover{
+    width:200px;
+    background:#900904;
+    border-radius:35px;
+    color:#fff;
+    box-shadow:0 0 50px #ae0000;
+}
+
+.box:nth-child(3):hover{
+    width:200px;
+    background:#1f104f; 
+    border-radius:35px;
+    color:#fff;
+    box-shadow:0 0 50px #241178;
+}
+/*Fim dos ícones*/
+nav{
+    background-image:url(coding.jpg);
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    width:100%;
+    height:40%;
+    min-height:300px;
+    flex-direction:column;
+    position:relative;
+    border-radius:10px;
+    border:2px solid white;
+    transition:all 0.5s ease;
+}
+
+nav:hover{
+    box-shadow:0 0 50px white;
+    height:50%;
+    margin:-5px;
+}
+
+body {
+    color:white;
+    background-image:url(fundrep.jpg);
+    font-family:verdana;
+}
+
+ul {
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
+    padding:16px;
+}
+
+header a{
+    color:white;
+    text-shadow: 0.1em 0.1em 0.15em #5961ee;
+    text-decoration:underline white;
+    transition:all 1s ease;
+}
+header a:hover{
+    color:#6885a3;
+    text-decoration:;
+    border-radius:35px;
+    text-shadow:0 0 30px #5961ee;
+}
+
+header img{
+    width:300px;
+    height:300px;
+    border-radius:10%;
+    border:2px solid white;
+}
+
+.center{
+    width:1275px;
+    padding:50px;
+    display:flex;
+    justify-content:center;
+    text-align:justify;
+    flex-wrap: wrap;
+}
+
+.center .card{
+    position:relative;
+    padding:10px;
+    width:350px;
+    background-color:black;
+    border:1px solid white;
+    border-radius:20px;
+    overflow:hidden;
+    transition:all 1s ease;
+    text-align:center;
+    
+}
+
+.center img{
+    width:300px;
+    height:250px;
+    border-radius:10%;
+    box-shadow:0 0 15px #483a87;
+}
+
+.center .card h4{
+    font-size:25px;
+}
+
+.center .card .content{
+    padding:5px;
+}
+
+.center .card .content p{
+    text-align:justify;
+    text-indent:30px;
+    transition:all 1s ease;
+}
+
+.center .card .content a{
+    position:relative;
+    display:inline block;
+    padding:10px 20px;
+    background:white;
+    border-radius:40px;
+    transition:1s;
+    outline:none;
+    margin-top:20px;
+    box-shadow:0 0 15px white;
+}
+
+.center .card:hover{
+    background:white;
+    color:black;
+    margin:-30px;
+    box-shadow:2px 20px 25px #d0cccc;
+    border-color:white;
+}
+
+.center .card:hover img{
+    box-shadow:0 0 50px black;
+}
+
+.center .card:hover .content a{
+    background:black;
+    box-shadow:0 0 15px black;
+}
+
+h1{
+    padding:40px;
+    text-align:center;
+    font-size:35px;
+}
+
+h2{
+    padding:45px;
+    text-align:left;
+    font-size:30px;
+}
+
+h3{
+    padding:2px;
+    font-size:20px;
+    text-indent:40px;
+
+}
+
+main p{
+    text-align:justify;
+    text-indent:30px;
+    padding:20px;
+}
+
+p img{
+    width:400px;
+    height:300px;
+    margin:10px;
+    text-align:center;
+    display:inline;
+}
+
+footer img{
+    width:120px;
+    height:110px;
+    text-align:center;
+    display:flex;
+}
+
+footer{
+    text-indent:25px;
+    display:flex;
+    justify-content:center;
+    background:black;
+    opacity:70%;
+}
+
+footer a{
+    margin:20px;
+    text-align:center;
+}
+
+footer p{
+    margin-top:2px;
+}
+
+nav a:hover{
+    color:#48b4e0;
+}
+
+a{
+    color:#5961ee;
+    text-decoration:none;
+}
+
+.container{
+    padding:0px 50px;
+}
+
+section a:hover{
+    color:#5961ee;
+    text-decoration:underline dashed white;
+}
